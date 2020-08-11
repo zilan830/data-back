@@ -8,5 +8,5 @@ module.exports = app => {
 
   router.get('/', controller.home.index);
 
-  router.get('/api/user', controller.user.index);
+  router.get('/user', controller.user.index);
 };
